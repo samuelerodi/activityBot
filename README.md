@@ -27,6 +27,11 @@ Telegram bot for managing role-based group activities:
 
 - git clone
 - npm i
-- Specify 
+
+- Specify environment variables:
+  - MONGO_DB_URI: Complete database connection string to MongoDB
+  - BOT_TOKEN: Telegram Bot API Token received from BotFather
+
+  - Alternatively, you can specify those in custom environment config file and set NODE_ENV variable with file name
 
 - npm start
