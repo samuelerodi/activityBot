@@ -1,0 +1,24 @@
+{
+  "name": "activityBot",
+  "version": "1.0.0",
+  "description": "Sample Activity Bot",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.7",
+    "node-schedule": "^1.3.1",
+    "request-promise": "^4.2.2",
+    "telegraf": "^3.26.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [ ],
+  "author": "Samuele Rodi",
+  "license": "MIT"
+}
